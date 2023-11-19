@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</style>
+<body>
+
+    <header id="header">
+        <h1 class="logo"><img src="img/logo.png" height="30" width="30" alt="logo">bibika</h1>
+        
+    </header>
+
+    <nav>
+        <b class="logotext"><a href="index.html">Main menu</a></b> |
+        <b class="logotext"><a href="toyota.html">Toyota</a></b> |
+        <b class="logotext"><a href="bmw.html">BMW</a></b> |
+        <b class="logotext"><a href="honda.html">Honda</a></b> |
+        <b class="logotext"><a href="contact.html">Contact us</a></b> |
+    </nav>
+
+    <main>
+        
+   <section id="contact">
+        <h1 style="text-align: center;">Зворотній зв'язок</h1>
+        <form action="submit_form.php" method="post">
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Вік:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="message">Відгук:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="education">Освіта:</label>
+            <select id="education" name="education" required>
+                <option value="inzhenerna">Інженерна</option>
+                <option value="pedagogichna">Педагогічна</option>
+                <option value="viyskova">Військова</option>
+                <option value="matematychna">Математична</option>
+            </select>
+
+        <h1>Оцінка якості прочитаного матеріалу:</h1>
+
+            <label for="liked">Сподобався</label>
+            <input type="radio" id="liked" name="evaluation" value="liked" required>
+            
+            <label for="needs_improvement">Потребує доопрацювання</label>
+            <input type="radio" id="needs_improvement" name="evaluation" value="needs_improvement" required>
+            
+            <label for="incomplete">Неповний</label>
+            <input type="radio" id="incomplete" name="evaluation" value="incomplete" required>
+            
+
+            <h2><label for="consent">Згода на обробку інформації:</label></h2>
+            <label for="consent">Погоджуюсь на обробку інформації.</label>
+            <input type="checkbox" id="consent" name="consent" required>
+
+            <h2><button type="submit">Надіслати</button></h2>
+        </form>
+    </section>
+    <a href="index.html"><h2>Назад до меню</h2></a>
+    <footer>
+        <div id="contact-info" class="PersonalInfo">
+            <p>Contact info:</p>
+            <p>Roman Burkivskiy</p>
+            <p>example@email.com</p>
+            <p>+123 456 789</p>
+        </div>
+        <p>&copy; 2023 bibika &trade;</p>
+    </footer>
+</body>
+
+</html>

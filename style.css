@@ -1,0 +1,113 @@
+.Roman{
+  font-family: 'Times New Roman', Times, serif;
+}
+.Gothic{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.logotext
+{
+  font-size: large;
+}
+.logo{
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  text-align: left;
+  background-color: rgb(124, 124, 124);
+}
+.PersonalInfo{
+  text-align: left;
+}
+caption{
+  text-align:left;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+
+nav {
+  background-color: #eee;
+  padding: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+section {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #f9f9f9;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #5a5a5a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+a:link {
+  color: #0099ff;
+}
+a:hover{
+  color:rgb(255, 0, 0);
+}
+::selection{
+  color: rgb(21, 255, 0);
+  background:black;
+}
