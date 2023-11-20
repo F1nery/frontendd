@@ -7,9 +7,23 @@
     <title>contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}
+.flex-container > div {
+  background-color: #05a1df;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 </style>
-<body>
+</style>
+<body style="background-color: #f9f9f9;">
 
     <header id="header">
         <h1 class="logo"><img src="img/logo.png" height="30" width="30" alt="logo">bibika</h1>
@@ -26,7 +40,17 @@
 
     <main>
         
+        <h1 style="text-align: center;">Поставте оцінку сайту</h1>
+        <h1 id="demo" style="text-align: center; color: rgb(12, 131, 18);"></h1>
+        <div class="flex-container">
+            <button onclick="myFunction2()"><div>1</div></button>
+            <button onclick="myFunction2()"><div>2</div></button>
+            <button onclick="myFunction2()"><div>3</div></button>
+            <button onclick="myFunction2()"><div>4</div></button>
+            <button onclick="myFunction2()"><div>5</div></button>
+          </div>
    <section id="contact">
+    <div>
         <h1 style="text-align: center;">Зворотній зв'язок</h1>
         <form action="submit_form.php" method="post">
             <label for="email">Електронна пошта:</label>
@@ -64,6 +88,7 @@
 
             <h2><button type="submit">Надіслати</button></h2>
         </form>
+    </div>
     </section>
     <a href="index.html"><h2>Назад до меню</h2></a>
     <footer>
@@ -75,6 +100,11 @@
         </div>
         <p>&copy; 2023 bibika &trade;</p>
     </footer>
+    <script>
+        function myFunction2() {
+          document.getElementById("demo").innerHTML = "Дякую за оцінку!";
+        }
+        </script>
 </body>
 
 </html>
